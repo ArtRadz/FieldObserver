@@ -52,7 +52,7 @@ namespace ObserverUtil
             var key = (target, fieldName);
             if (!DoesContainKey(key))
             {
-                return
+                return;
             }
             WatchedFields.Remove(key);
         }
@@ -62,7 +62,7 @@ namespace ObserverUtil
             var key = (target, fieldName);
             if (!DoesContainKey(key))
             {
-                return
+                return;
             }
 
             WatchedFields[key].Callbacks.Remove(callback);
