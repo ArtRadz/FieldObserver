@@ -1,5 +1,5 @@
 {
-  "name": "com.artradz.observerutils",
+  "name": "com.artradz.observerutil",
   "version": "1.0.0",
   "displayName": "Observer Util",
   "description": "Field change observation utilities for Unity projects.",
