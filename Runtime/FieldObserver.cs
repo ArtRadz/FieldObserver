@@ -102,7 +102,7 @@ namespace ObserverUtil
                             UnityEngine.Debug.LogError($"[FieldObserver] Callback error: {ex}");
                         }
                     }
-                }
+                
             }
         }
     }
