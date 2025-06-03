@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Observer Util",
   "description": "Field change observation utilities for Unity projects.",
-  "unity": "2021.2.7",
+  "unity": "2021.2",
   "author": {
     "name": "Artem Kuznetsov"
   }
