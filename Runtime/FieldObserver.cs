@@ -77,7 +77,7 @@ namespace ObserverUtil
            return WatchedFields.ContainsKey(key);
         }
 
-        private static void Tick()
+        public static void Tick()
         {
             foreach (var kvp in WatchedFields)
             {
