@@ -57,7 +57,7 @@ namespace ObserverUtil
             WatchedFields.Remove(key);
         }
 
-        public static void UnobserveFieldScoped(object target, string fieldName, Action<object> callback)
+        public static void UnObserveFieldScoped(object target, string fieldName, Action<object> callback)
         {
             var key = (target, fieldName);
             if (!DoesContainKey(key))
