@@ -46,9 +46,7 @@ Must be called manually (e.g., from Unity's Update() loop).
 Performs a check on all tracked fields and invokes callbacks if changes are detected.
 
 🧪 Example Usage
-csharp
-Copy
-Edit
+
 void Start()
 {
     FieldObserver.ObserveField(myComponent, "_health", OnHealthChanged);
