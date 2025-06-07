@@ -66,6 +66,8 @@ void OnDestroy()
 {
     FieldObserver.UnObserveFieldGlobal(myComponent, "_health");
 }
+
+
 ⚠️ Limitations
 Only works with fields, not properties.
 
