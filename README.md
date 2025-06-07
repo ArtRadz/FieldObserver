@@ -69,6 +69,7 @@ void OnDestroy()
 
 
 ⚠️ Limitations
+
 Only works with fields, not properties.
 
 Does not track nested objects or internal collection changes — only top-level field references.
